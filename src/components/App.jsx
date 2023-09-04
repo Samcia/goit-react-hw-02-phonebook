@@ -4,7 +4,7 @@ import { Filter } from './Filter';
 import { Component } from 'react';
 import { nanoid } from 'nanoid';
 
-class App extends Component {
+export class App extends Component {
   state = {
     contacts: [
       { id: 'id-1', name: 'Rosie Simpson', number: '459-12-56' },
