@@ -27,7 +27,7 @@ class App extends Component {
         person => person.name.toLowerCase() === contact.name.toLowerCase()
       )
     ) {
-      return alert('${contact.name} already exist');
+      return alert('{$contact.name} already exist');
     }
 
     this.setState(prevState => ({
