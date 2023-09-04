@@ -12,7 +12,6 @@ class App extends Component {
     ],
     filter: '',
   };
-
   addContact = ev => {
     ev.preventDefault();
 
